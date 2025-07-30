@@ -18,8 +18,8 @@ def daterange(start_date: date, end_date: date):
     for n in range(days):
         yield start_date + timedelta(n)
 
-start_date = date(2000, 1, 1)
-end_date = date(2100, 1, 1)
+start_date = date(2000, 1, 1)  #Code start date
+end_date = date(2100, 1, 1)    #Code end date
 
 
 for single_date in daterange(start_date, end_date):
